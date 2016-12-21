@@ -74,7 +74,7 @@
 					<div class="school">
 						<img src="images/rochester.png" alt="University of Rochester logo"><br>
 						University of Rochester<br>
-						Hajim School of Engineering & Applied Sciences<br>
+						Hajim School of Engineering &amp; Applied Sciences<br>
 						Bachelor of Arts in Computer Science<br>
 						Class of 2017
 					</div>
