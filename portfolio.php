@@ -3,19 +3,27 @@
 	include "inc/top.inc";
 ?>
 
-		<section>
-			<div class="portfolio">
+		<section class="portfolio">
+			<div>
 				<h1>Portfolio</h1>
 
 				<div class="flexslider">
 					<ul class="slides">
 						<li>
 							<img src="images/wordpress.png" />
-							<p class="flex-caption"><a class="flexlink" href="http://www.urcsc174.org/mchen/lab11/wordpress/">WordPress Site</a> A WordPress site I created for a lab.</p>
+							<p class="flex-caption"><a class="flexlink" href="http://www.urcsc174.org/mchen/lab11/wordpress/">WordPress</a> A WordPress site I created for a lab.</p>
 						</li>
 						<li>
-							<img src="images/170project3.png" />
-							<p class="flex-caption"><a class="flexlink" href="http://www.urcsc170.org/examples/mchen/project3/">CSC 170 Project 3</a> My project 3 site for CSC 170.</p>
+							<img src="images/project.png" />
+							<p class="flex-caption"><a class="flexlink" href="http://www.urcsc170.org/examples/mchen/project3/">Project</a> My project 3 site for CSC 170.</p>
+						</li>
+						<li>
+							<img src="images/design.png" />
+							<p class="flex-caption"><a class="flexlink" href="http://urcsc170.org/mchen/lab09/">Design</a> A site I designed for a lab.</p>
+						</li>
+						<li>
+							<img src="images/pokemon.png" />
+							<p class="flex-caption"><a class="flexlink" href="http://urcsc170.org/mchen/project1/">Team Project</a> Pokemon site our team, that I was leader of, created.</p>
 						</li>
 					</ul>
 				</div>

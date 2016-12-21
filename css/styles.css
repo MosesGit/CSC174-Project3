@@ -161,6 +161,10 @@ a:hover {
 */
 
 .portfolio {
+	background-color: lightgrey;
+}
+
+.test {
 	width: 90%;
 	height: 90%;
 	margin: 0 auto;
