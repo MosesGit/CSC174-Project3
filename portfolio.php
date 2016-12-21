@@ -3,7 +3,7 @@
 	include "inc/top.inc";
 ?>
 
-		<section class="portfolio">
+		<section id="portfolio">
 			<div>
 				<h1>Portfolio</h1>
 

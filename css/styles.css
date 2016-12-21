@@ -160,15 +160,8 @@ a:hover {
 	Portfolio
 */
 
-.portfolio {
+#portfolio {
 	background-color: lightgrey;
-}
-
-.test {
-	width: 90%;
-	height: 90%;
-	margin: 0 auto;
-	text-align: center;
 }
 
 .flexslider {
@@ -193,4 +186,26 @@ a:hover {
 
 .flexlink:hover {
 	color: black;
+}
+
+/*
+	Contact Form
+*/
+
+#contactform {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	background-color: lightgrey;
+}
+
+#contactform .container {
+	width: 50%;
+	text-align: center;
+}
+
+#contactform .content {
+	display: inline-block;
+	margin-top: 50px;
+	margin-right: 60px;
 }
