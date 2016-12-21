@@ -1,0 +1,192 @@
+/*	****************************************
+	Demo styles (for demo purposes only)
+	**************************************** */
+p {
+	margin-top: 0;
+	line-height: 2em;
+}
+
+.right {
+	float: right;
+	margin-left: 15px;
+}
+
+.frame {
+	border: 1px solid #666;
+	padding: 5px;
+}
+
+/*	****************************************
+	Modules (reusable classes)
+	**************************************** */
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px; 
+}
+
+.content {
+	text-align: left;
+	overflow: auto;
+}
+
+/*
+	Navigation
+*/
+
+.navbar {
+	background-color: white;
+	border-bottom: 1px solid black;
+}
+
+.navbar ul {
+	align-items: center;
+}
+
+.navbar li {
+	white-space: pre;
+}
+
+.navbar a {
+	color: black;
+}
+
+.logo {
+	flex: 0 0 75%;
+}
+
+.navbar .current {
+	color: #005BA1;
+}
+
+/*
+	Layout
+*/
+
+body {
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	font-size: 250%;
+}
+
+section {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+a, a:visited {
+	color: inherit;
+}
+
+a:hover {
+	color: gray;
+}
+
+#intro .container p {
+	text-align: center;
+}
+
+#skills {
+	color: white;
+}
+
+#skills .container {
+	width: 50%;
+	text-align: center;
+}
+
+#skills .content {
+	display: inline-block;
+	padding-top: 50px;
+}
+
+#education .content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.resumelink {
+	clear: float;
+	width: 50%;
+	text-align: center;
+	font-size: 150%;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.resumelink2 {
+	text-decoration: none;
+}
+
+.resumelink2 div {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.languages, .software {
+	clear: float;
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+
+.software {
+	margin-left: 150px;
+}
+
+.list {
+	align-items: center;
+	text-align: left;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.school {
+	line-height: 2em;
+}
+
+/*
+	Portfolio
+*/
+
+.portfolio {
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.flexslider {
+	display: inline-block;
+}
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.flexlink, .flexlink:visited {
+	color: white;
+}
+
+.flexlink:hover {
+	color: black;
+}
